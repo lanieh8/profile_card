@@ -5,24 +5,48 @@ body {
 }
 
 .card-container {
-
+  width: 80vw;
+  height: 60vw;
+  max-width: 400px;
+  max-height: 400px;
   display: flex;
   flex-direction: column;
-  margin: 25%;
+  justify-content: space-between;
+  margin: 15% auto;
   padding: 25px;
   border: solid 5px;
   border-radius: 8px;
 }
 
+.profile-picture {
+  display: flex;
+  justify-content: center;
+}
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
 .headings {
   text-align: center;
   /*justify-content: center;*/
 }
 
 .social-links {
-    text-align: center;
+  text-align: center;
 }
 .btn {
-    text-align: center;
+  text-align: center;
 }
-
