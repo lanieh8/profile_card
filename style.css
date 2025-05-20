@@ -5,18 +5,6 @@ body {
 }
 
 .card-container {
-  /*width: 80vw;
-  height: 60vw;
-  max-width: 400px;
-  max-height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 15% auto;
-  padding: 25px;
-  border: solid 5px;
-  border-radius: 8px;
-  overflow: hidden;*/
   width: 90%;
   max-width: 400px;
   min-width: 280px;
@@ -61,12 +49,16 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
+  margin: -5% 0 5% 0;
+
 }
 .headings {
   text-align: center;
-  /*justify-content: center;*/
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
 }
 
 .social-links {
