@@ -31,10 +31,11 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 20%;
   right: 50%;
   left: 50%;
+  padding-top: 25px;
 }
+
 .profile-picture img {
   width: 150px;
   height: 150px;
@@ -52,18 +53,19 @@ h2 {
   font-size: 15px;
   font-weight: 400;
   margin: -5% 0 5% 0;
-
 }
+
 .headings {
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .social-links {
   text-align: center;
 }
+
 .btn {
   text-align: center;
 }
