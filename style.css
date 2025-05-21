@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #718a9b;
+  background-color: #86939c;
 }
 
 .profile-picture {
@@ -34,6 +34,7 @@ body {
   right: 50%;
   left: 50%;
   padding-top: 25px;
+  
 }
 
 .profile-picture img {
@@ -42,15 +43,7 @@ body {
   border-radius: 50%;
   object-fit: cover;
   display: flex;
-}
-
-.text {
-  /*display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 15%;
-    /*padding: 30px;*/
+  border: px solid white;
 }
 
 h1 {
@@ -72,27 +65,29 @@ h2 {
 }
 
 #github-logo {
-    width: 100px;
+    width: 80px;
 }
 
 #instagram-logo {
-    width: 70px;
+    width: 54px;
+    margin-top: 8px;
 }
 
 .social-links {
-  /*text-align: center;
-  margin-top: 10%;*/
+  display: flex;
+  justify-content: center;
 }
 
 button {
-  margin-top: 15%;
+  margin-top: 10%;
   padding: 15px 20px;
-  background-color: #718a9b;
+  background-color: #86939c;
   border-style: none;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .btn {
