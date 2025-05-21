@@ -71,9 +71,13 @@ h2 {
   margin-top: 10%;
 }
 
+#github-logo {
+    width: 100px;
+}
+
 .social-links {
-  text-align: center;
-  margin-top: 10%;
+  /*text-align: center;
+  margin-top: 10%;*/
 }
 
 button {
